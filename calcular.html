@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+
+    <!-- Cargando iconos -->
+    <link href='css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+
+    <!-- Cargando mi CSS -->
+    <link rel="stylesheet" href="css/mi.css">
+
+    <title>Cierre Diario</title>
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Cierre Diario <i class="fa fa-bar-chart-o" aria-hidden="true"></i></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Calcular</a>
+              </li>
+           
+            </ul>
+           
+          </div>
+    </nav>
+
+    <div class="container calcular">
+        <div class="row">
+            <div class="col-md-6">
+           <h3>Venta de un producto</h3>
+                <p>Precio-Unidad</p>
+              <input class="form-control"type="number" name="calcularV" id="precioCU">
+              <p>Precio-Pakete</p>
+              <input class="form-control"type="number" name="calcularV" id="precioCP">
+              <p>precio-Venta-U</p>
+              <input class="form-control"type="number" name="calcularV" id="precioVU">
+              <p>precio-Venta-P</p>
+              <input class="form-control"type="number" name="calcularV" id="precioVP">
+              <p>ganancia-U</p>
+              <input class="form-control"type="number" name="calcularV" id="gananciaU">
+              <p>ganancia-P</p>
+              <input class="form-control"type="number" name="calcularV" id="gananciaP">
+          
+              <p>cant-U</p>
+              <input class="form-control"type="number" name="calcularV" id="cantU">
+              <p>cant-P</p>
+              <input class="form-control"type="number" name="calcularV" id="cantP">
+             
+          
+          
+            </div>
+
+            <div class="result col-md-6">
+                <p id="ventaT">Venta Total : </p>
+                <p id="inversionT"> Inversion Total : </p>
+                <p id="gananciaT">Ganancia Total : </p>
+
+                <button data-toggle="tooltip" data-placement="top" onclick="CalcularP()" class="btn btn-primary cal" title="Calcular" type="submit"><i class="fa fa-calculator" aria-hidden="true"></i></button>
+                <button data-toggle="tooltip" data-placement="top" onclick="BorrarP()" class="btn btn-danger borr" title="Borrar" type="submit"><i class="fa fa-trash" aria-hidden="true"></i></button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p class="created">Created by ProgD10</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/mi.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+            });
+            $('[data-toggle="tooltip"]').tooltip();
+            
+        });
+    </script>
+</body>
+
+</html>

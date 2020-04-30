@@ -1,0 +1,214 @@
+productos = [{
+    nombre: 'Refresco Zuko',
+    precioCP: 0,
+    precioCU: 0,
+    precioVP: 0,
+    precioVU: 0,
+    gananciaP: 0,
+    gananciaU: 2.5
+},
+{
+    nombre: 'Chicle',
+    precioCP: 12.5,
+    precioCU: 2.5,
+    precioVP: 25,
+    precioVU: 5,
+    gananciaP: 12.5,
+    gananciaU: 2.5
+},
+{
+    nombre: 'Tabaco',
+    precioCP: 0,
+    precioCU: 1,
+    precioVP: 0,
+    precioVU: 2,
+    gananciaP: 0,
+    gananciaU: 1
+},
+{
+    nombre: 'Holliwood Negro',
+    precioCP: 37.5,
+    precioCU: 1.875,
+    precioVP: 50,
+    precioVU: 2.5,
+    gananciaP: 12.5,
+    gananciaU: 0.625
+},
+{
+    nombre: 'H.upmann',
+    precioCP: 17.5,
+    precioCU: 0.875,
+    precioVP: 20,
+    precioVU: 1,
+    gananciaP: 2.5,
+    gananciaU: 0.125
+},
+{
+    nombre: 'C.Criollo',
+    precioCP: 7,
+    precioCU: 0.35,
+    precioVP: 10,
+    precioVU: 0.5,
+    gananciaP: 3,
+    gananciaU: 0.15
+},
+{
+    nombre: 'Detergente',
+    precioCP: 0,
+    precioCU: 12.5,
+    precioVP: 0,
+    precioVU: 20,
+    gananciaP: 0,
+    gananciaU: 7.5
+},
+{
+    nombre: 'Jaba',
+    precioCP: 0,
+    precioCU: 0.5,
+    precioVP: 0,
+    precioVU: 1,
+    gananciaP: 0,
+    gananciaU: 0.5
+},
+{
+    nombre: 'Maquina A',
+    precioCP: 16,
+    precioCU: 8,
+    precioVP: 25,
+    precioVU: 15,
+    gananciaP: 9,
+    gananciaU: 7
+},
+{
+    nombre: 'Bolígrafo',
+    precioCP: 0,
+    precioCU: 0,
+    precioVP: 0,
+    precioVU: 0,
+    gananciaP: 0,
+    gananciaU: 5
+},
+{
+    nombre: 'Harina.Lac',
+    precioCP: 0,
+    precioCU: 0,
+    precioVP: 0,
+    precioVU: 0,
+    gananciaP: 0,
+    gananciaU: 10
+},
+   {
+    nombre: 'Chambelona',
+    precioCP: 0,
+    precioCU: 2,
+    precioVP: 0,
+    precioVU: 3,
+    gananciaP: 0,
+    gananciaU: 1
+},
+{
+    nombre: 'Agarradera',
+    precioCP: 0,
+    precioCU: 6,
+    precioVP: 0,
+    precioVU: 10,
+    gananciaP: 0,
+    gananciaU: 4
+},
+{
+    nombre: 'Perfume',
+    precioCP: 0,
+    precioCU: 125,
+    precioVP: 0,
+    precioVU: 200,
+    gananciaP: 0,
+    gananciaU: 75
+},
+{
+    nombre: 'Comino',
+    precioCP: 0,
+    precioCU: 5,
+    precioVP: 0,
+    precioVU: 7,
+    gananciaP: 0,
+    gananciaU: 2
+},
+{
+    nombre: 'Fosforera',
+    precioCP: 0,
+    precioCU: 8,
+    precioVP: 0,
+    precioVU: 12,
+    gananciaP: 0,
+    gananciaU: 4
+}
+,
+{
+    nombre: 'Agarradera',
+    precioCP: 0,
+    precioCU: 6,
+    precioVP: 0,
+    precioVU: 10,
+    gananciaP: 0,
+    gananciaU: 4
+}
+,
+{
+    nombre: 'Bongu',
+    precioCP: 0,
+    precioCU: 7,
+    precioVP: 0,
+    precioVU: 10,
+    gananciaP: 0,
+    gananciaU: 3
+}
+,
+{
+    nombre: 'Estropajo',
+    precioCP: 0,
+    precioCU: 7,
+    precioVP: 0,
+    precioVU: 10,
+    gananciaP: 0,
+    gananciaU: 3
+}
+,
+{
+    nombre: 'Sazon Ranchero',
+    precioCP: 0,
+    precioCU: 7,
+    precioVP: 0,
+    precioVU: 10,
+    gananciaP: 0,
+    gananciaU: 3
+}
+,
+{
+    nombre: 'Pastilla Pollo-Tomate',
+    precioCP: 0,
+    precioCU: 2.08,
+    precioVP: 0,
+    precioVU: 5,
+    gananciaP: 0,
+    gananciaU: 2.9
+}
+,
+{
+    nombre: 'Pastilla Ajo-Cebolla',
+    precioCP: 2.08,
+    precioCU: 1.04,
+    precioVP: 5,
+    precioVU: 5,
+    gananciaP: 2.92,
+    gananciaU: 3.9
+},
+{
+    nombre: 'Cuchilla-hoja',
+    precioCP: 0,
+    precioCU: 3.5,
+    precioVP: 0,
+    precioVU: 5,
+    gananciaP: 0,
+    gananciaU: 1.5
+}
+];
